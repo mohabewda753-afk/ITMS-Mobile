@@ -1,0 +1,1 @@
+ITMS Mobile v0.3 - single-file startup build. Upload this ZIP directly to Netlify. No service worker is used in this diagnostic build, eliminating stale-cache startup failures.
