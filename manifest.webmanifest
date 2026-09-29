@@ -1,1 +1,10 @@
-{"name":"ITMS Mobile","short_name":"ITMS Mobile","start_url":"./","display":"standalone","background_color":"#f4f7fb","theme_color":"#073b78"}
+{
+  "name": "ITMS Mobile Attendance",
+  "short_name": "ITMS Mobile",
+  "description": "ITMS lecturer attendance app with offline-first Apps Script synchronization.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#073b78"
+}
