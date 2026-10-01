@@ -1,7 +1,7 @@
 {
-  "name": "ITMS Mobile Attendance",
+  "name": "ITMS Mobile",
   "short_name": "ITMS Mobile",
-  "description": "ITMS lecturer attendance app with offline-first Apps Script synchronization.",
+  "description": "IMUS lecturer timetable and offline attendance",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
