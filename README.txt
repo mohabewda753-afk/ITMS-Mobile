@@ -17,3 +17,14 @@ Changes from v0.8:
 
 GitHub Pages update:
 Replace the existing index.html and manifest.webmanifest in the ITMS-Mobile repository with these two files, commit, and wait for GitHub Pages to refresh.
+
+
+=== v0.9.3 session reliability update ===
+- Expired gateway sessions are renewed automatically using the lecturer name + HR already cached on the device.
+- Sync no longer forces a sign-out when the token expires.
+- Offline attendance remains available and pending records stay stored locally.
+- When internet returns, the app attempts silent reconnection.
+- If automatic reconnection cannot be completed, the lecturer can sign in again without losing attendance.
+
+- Lecturer titles/prefixes such as م/, م, مهندس, and Eng. are removed from the login field and lecturer display.
+- Automatic session renewal also normalizes the lecturer name before reconnecting.
